@@ -26,7 +26,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/personas")
-@CrossOrigin(origins="*", methods={RequestMethod.GET, RequestMethod.POST})
+@CrossOrigin(origins="https://backendportfolioale2.onrender.com", methods={RequestMethod.GET, RequestMethod.POST})
 public class PersonaController {
     
      @Autowired
